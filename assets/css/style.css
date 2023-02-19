@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+
+:root{
+    --blue:#6995F4;
+    --red:#CF3B19;
+    --pink:#B4B4B4;
+    --l_red:#FF6600;
+}
+
+/* .product_section_start */
+.product_section_start{
+
+}
+.product_title{
+text-align: center;
+    color: #333;
+    font-family: 'robotothin',Arial, 'Microsoft YaHei', SimSun, Sans-serif;
+    text-transform: capitalize;
+}
+.product_title h2{
+    font-size:40px;
+}
+.product_section_details{
+
+}
+.product_section_details p{
+margin: 0px;
+text-align:left;
+font-size: 14px;
+    text-transform: uppercase;
+    color: #808080;
+    line-height: 1.2;
+
+}
+.product_section_one_img{
+    border: 4px solid var(--pink);
+    text-align: center;
+    overflow: hidden;
+}
+.product_section_details h5{
+margin: 0px;
+text-align: left;
+    font-weight: bold;
+    color: #008cbd;
+    font-size: 16px;
+    font-family: 'robotobold',Arial, 'Microsoft YaHei', SimSun, Sans-serif;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.product_section_details:hover img{
+transform: scale(1.08);
+transition: 0.7s;
+}
+/* product_section_end */
